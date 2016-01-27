@@ -12,7 +12,7 @@ var app = express();
 var http = require('http');
 
 // bind port
-app.set('http_port', 8888);
+app.set('http_port', 9999);
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
